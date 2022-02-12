@@ -1,0 +1,54 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>admin</title>
+    <style>
+        * {
+            margin: 0px;
+        }
+
+        .m-center {
+            position: fixed;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%, -50%);
+            width: 360px;
+        }
+    </style>
+    <link rel="stylesheet" href="../assets/css/bootstrap.min.css">
+    <script src="../assets/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Food Panda</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+        </div>
+    </nav>
+    <div class="m-center">
+        <div class="row">
+            <div class="col-sm-12">
+                <label for="name">Product Name</label>
+                <input type="text" id="name" class="form-control">
+            </div>
+            <div class="col-sm-12">
+                <label for="price">Price</label>
+                <input type="text" id="price" class="form-control">
+            </div>
+            <div class="col-sm-12">
+                <br>
+                <button class="btn btn-success">Add Product</button>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

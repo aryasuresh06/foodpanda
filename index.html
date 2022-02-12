@@ -1,41 +1,114 @@
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <style>
-        *{
+        * {
             margin: 0px;
         }
-        .nav-item{
+
+        body {
+            background-color: #eee;
+        }
+
+        .nav-item {
             color: white;
             margin-right: 50px;
             margin-top: 10px;
         }
     </style>
     <title>Food Panda</title>
+    <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
+    <script src="./assets/js/bootstrap.min.js"></script>
 </head>
+
 <body>
-    
+
     <div style="background-image: url(food.jpg); background-size: cover;">
         <nav style="text-align: end;">
-            <a href="login.html" class="nav-item">Login</a> to <a href="login.html"></a> in index.html file
-            <a href="signup.html" class="nav-item">Sign up</a> to <a href="signup.html"></a> in index.html file
+            <a href="login.html" class="nav-item">Login</a>
+            <a href="signup.html" class="nav-item">Sign up</a>
         </nav>
-    
-        <h1 style="text-align: center; margin-top: 100px; font-size: 80px; color: white; margin-bottom: 0px; font-family: monospace;">Food Panda</h1>
-        <h2 style="text-align: center; font-size: 40px; color: white; margin-top: 0px; margin-bottom: 20px;">Discover the best food & drinks in Bengaluru</h2>
-        <br>
-       <div style="text-align: center;">
-        <input type="text" style="height: 50px; width: 700px;font-size: 20px; border-radius: 8px; padding-left: 8px;" placeholder="search for restaurant, cuisine or a dish">
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
 
-       </div>
+        <h1
+            style="text-align: center; margin-top: 100px; font-size: 80px; color: white; margin-bottom: 0px; font-family: monospace;">
+            Food Panda</h1>
+        <h2 style="text-align: center; font-size: 40px; color: white; margin-top: 0px; margin-bottom: 20px;">Discover
+            the best food & drinks in Bengaluru</h2>
+        <br>
+        <div style="text-align: center;">
+            <input type="text"
+                style="height: 50px; width: 700px;font-size: 20px; border-radius: 8px; padding-left: 8px;"
+                placeholder="search for restaurant, cuisine or a dish">
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+
+        </div>
     </div>
-    
+    <div class="row m-5">
+        <div class="col-sm-4">
+            <a href="product.html">
+                <img src="./assets/images/biriyani.jfif" alt="biriyani"
+                    style="width: 80%; margin: 10%; box-shadow:0 0 10px rgba(0, 0, 0, 0.5)">
+                <h4 class="text-center">Biriyani</h4>
+            </a>
+        </div>
+        <div class="col-sm-4">
+            <a href="product.html">
+                <img src="./assets/images/burger.jpg" alt="burger"
+                    style="width: 80%; margin: 10%; box-shadow:0 0 10px rgba(0, 0, 0, 0.5)">
+                <h4 class="text-center">Burger</h4>
+            </a>
+        </div>
+        <div class="col-sm-4">
+            <a href="product.html">
+                <img src="./assets/images/kfc.jpg" alt="kfc"
+                    style="width: 80%; margin: 10%; box-shadow:0 0 10px rgba(0, 0, 0, 0.5)">
+                <h4 class="text-center">kfc</h4>
+            </a>
+        </div>
+    </div>
+    <div class="row m-3">
+        <div class="col-sm-3">
+            <div class="card">
+                <a href="product.html">
+                    <img src="./assets/images/pizza.jpg" alt="pizza" style="width: 80%; margin: 10%;">
+                    <h5 class="text-center">pizza</h5>
+                </a>
+            </div>
+        </div>
+        <div class="col-sm-3">
+            <div class="card">
+                <a href="product.html">
+                    <img src="./assets/images/kerala meal.jpg" alt="kerala meal" style="width: 80%; margin: 10%;">
+                    <h5 class="text-center">kerala meal</h5>
+                </a>
+            </div>
+        </div>
+        <div class="col-sm-3">
+            <div class="card">
+                <a href="product.html">
+                    <img src="./assets/images/noodles.jpg" alt="noodles" style="width: 80%; margin: 10%;">
+                    <h5 class="text-center">noodles</h5>
+                </a>
+            </div>
+        </div>
+        <div class="col-sm-3">
+            <div class="card">
+                <a href="product.html">
+                    <img src="./assets/images/fried rice.jfif" alt="fried rice" style="width: 80%; margin: 10%;">
+                    <h5 class="text-center">fried rice</h5>
+                </a>
+            </div>
+        </div>
+
+    </div>
+
 </body>
+
 </html>
